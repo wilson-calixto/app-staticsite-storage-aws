@@ -15,7 +15,6 @@ terraform {
     dynamodb_table = "kledson-basso-002-tf"
     region         = "us-east-1"
   }
-
 }
 
 # provider "aws" {
