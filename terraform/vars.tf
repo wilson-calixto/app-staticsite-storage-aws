@@ -1,5 +1,5 @@
 variable "bucket_name" {
-  default = "kledson-basso-002"
+  default = "wilson-calixto-002"
 }
 
 variable "website_endpoint" {
