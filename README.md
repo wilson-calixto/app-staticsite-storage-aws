@@ -1,6 +1,6 @@
 # Armazenamento AWS S3 (Site estático)
 
-O objetivo desta atividade é explorar na prática os conceitos de armazenamento utilizando o serviço AWS Simple Storage Service (S3). 
+O objetivo desta atividade é explorar na prática os conceitos de armazenamento utilizando o serviço AWS Simple Storage Service (S3).
 
 O Amazon S3 pode ser utilizado para hospedar sites estáticos.
 
@@ -26,12 +26,12 @@ Para hospedar um site estático no Amazon S3, configure um bucket do Amazon S3 p
 
 3. Selecione **Criar bucket**.
 
-4. Na tela de criação de bucket preencha com as informações abaixo e no final da tela clique em  **Criar bucket**.
+4. Na tela de criação de bucket preencha com as informações abaixo e no final da tela clique em **Criar bucket**.
 
-   > **ATENÇÃO !!!** Substitua o texto **bucket-name** por um nome de Bucket qualquer. Mantenha as demais opções padrões. 
+   > **ATENÇÃO !!!** Substitua o texto **bucket-name** por um nome de Bucket qualquer. Mantenha as demais opções padrões.
 
    - **nome**: `bucket-name`
-   - **região**: Norte da Virgínia (us-east-1)
+   - **região**: Norte da Virgínia (us-east-2)
    - **ACLs habilitadas**: selecionado
    - **Bloquear todo o acesso público**: desabilitado
    - **Reconheço que as configurações atuais podem fazer com que este bucket e os objetos dentro dele se tornem públicos:** selecionado
@@ -43,12 +43,12 @@ Para hospedar um site estático no Amazon S3, configure um bucket do Amazon S3 p
 
 7. Selecione as opções **Listar** e **Leitura** para o beneficiário **Todos (acesso público)**.
 
-8. Marque a opção **Compreendo os efeitos dessas alterações em meus objetos e buckets** e clique em **Salvar alterações**. 
+8. Marque a opção **Compreendo os efeitos dessas alterações em meus objetos e buckets** e clique em **Salvar alterações**.
 
 9. Faça download para sua máquina dos arquivos [index.html](https://github.com/kledsonhugo/app-static-site-s3/blob/main/app/index.html) e [error.html](https://github.com/kledsonhugo/app-static-site-s3/blob/main/app/error.html).
 
    > **ATENÇÃO !!!** Caso você não esteja logado no GitHub, não aparecerá a opção para download. Nesse caso copie o conteúdo do arquivo, crie um arquivo novo na sua máquina e cole o conteúdo copiado para dentro do novo arquivo. Faça isso tanto para o arquivo index.html, quanto para o arquivo error.html. Verifique a extenção do arquivo criado na sua máquina. Deverá ter a extenção .html
- 
+
 10. No menu **Objetos** clique em **Carregar**.
 
     - Selecione **Adicionar arquivos**
