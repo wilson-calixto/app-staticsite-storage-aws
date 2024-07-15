@@ -10,10 +10,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "wilson-calixto-002-tf"
-    key            = "terraform.tfstate"
-    dynamodb_table = "wilson-calixto-002-tf"
-    region         = "us-east-2"
+    bucket = "wilson-calixto-002-tf"
+    key    = "terraform.tfstate"
+    # dynamodb_table = "wilson-calixto-002-tf"
+    region = "us-east-2"
   }
 }
 
